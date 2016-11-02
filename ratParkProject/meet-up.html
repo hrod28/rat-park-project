@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>-->
+    <link rel="stylesheet" type="text/css" href="/Users/mac/Documents/ratParkProject/rat-park-project/meet-up-style.css" media="screen"/>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <meta charset="utf-8">
+    <title>Search Meetings</title>
+  </head>
+  <body>
+    <div class="container">
+    <form name="category-form">
+      <div class="form-group" align="center">
+        <label for="userChoiceCategory">Select Category</label>
+        <select id="userChoiceCategory" placeholder="Select Category">
+          <option value="1">Arts &amp; Culture</option>
+          <option value="18">Book Clubs</option>
+          <option value="2">Career &amp; Business</option>
+          <option value="3">Cars &amp; Motorcycles</option>
+          <option value="4">Community &amp; Environment</option>
+          <option value="5">Dancing</option>
+          <option value="6">Education &amp; Learning</option>
+          <option value="8">Fashion &amp; Beauty</option>
+          <option value="9">Fitness</option>
+          <option value="10">Food &amp; Dring</option>
+          <option value="11">Games</option>
+          <option value="14">Health &amp; Wellbeing</option>
+          <option value="15">Hobbies &amp; Crafts</option>
+          <option value="16">Language &amp; Ethnic Identity</option>
+          <option value="12">LGBT</option>
+          <option value="17">Lifestyle</option>
+          <option value="13">Movements &amp; Politics</option>
+          <option value="20">Movies &amp; Film</option>
+          <option value="21">Music</option>
+          <option value="22">New Age &amp; Spirituality</option>
+          <option value="23">Outdoors &amp; Adventure</option>
+          <option value="24">Paranormal</option>
+          <option value="25">Parents &amp; Family</option>
+          <option value="26">Pets &amp; Animals</option>
+          <option value="27">Photography</option>
+          <option value="28">Religion &amp; Beliefs</option>
+          <option value="29">Sci-Fi &amp; Fantasy</option>
+          <option value="30">Singles</option>
+          <option value="31">Socializing</option>
+          <option value="32">Sports &amp; Recreation</option>
+          <option value="33">Support</option>
+          <option value="34">Tech</option>
+          <option value="36">Writing</option>
+        </select>
+      </div>
+      <div class="form-group" align="center">
+        <label for="zipCode">Enter Zip Code</label>
+        <input id="zipCode" type="text" placeholder="Enter Zip Code" value="">
+      </div>
+      <div class="form-group" align="center">
+        <label for="wtf">Click to Find Meetups:</label>
+        <button id="wtf" type="submit">Search MeetUps</button>
+
+        <label for="newSearch">Click to Clear Results:</label>
+        <input id="newSearch" type="button" onclick="history.go(0)" value="Refresh" placeholder="Click to Clear Search">
+
+      </div>
+    </form>
+
+    <div id="meetingSection" class="centerResults">
+      <h1>My MeetUps:</h1>
+
+    </div>
+
+<!--test here
+    <div id="meetingSection">
+      <header>
+        <h1 class="meetups">My Meetups:</h1>
+      </header>
+
+    </div>-->
+
+
+  </div>
+  </body>
+</html>

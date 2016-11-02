@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>#4 - A Simple One Page Template with a preloading screen</title>
+        <title>rat park</title>
 
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,9 +33,11 @@
             <div class="bcg"></div>
             <header class="wrapper">
                 <h1 class="title">Welcome to Rat Park</h1>
-                <p>where connection is key</p>
+                <h2 class="title">Where Connection is Key</h2>
+                <p>This website is designed to help those individuals who are committed to recovery</p>
+                <p>It is intended to be used as a tool for education on addiction, and for finding resources to ensure a successful recovery.</p>
             </header>
-            <span class="scroll-hint">Scroll Down</span>
+            <span class="scroll-hint">Scroll Down To Learn More</span>
         </div>
 
         <nav>
@@ -56,7 +58,7 @@
                         <h1>What IS Rat Park?</h1>
                     </header>
                     <section>
-                        <p class="slideInUp slideInUp2">click below to find out</p>
+                        <p class="slideInUp slideInUp2">press play to find out</p>
                     </section>
                 </div> <!-- .wrapper -->
             </article>
@@ -66,11 +68,21 @@
                 <div class="wrapper">
                     <header class="slideInUp">
   <!--I want to put a play button that plays a youTube video.  I want the video to have a still of a particular frame and any size that i want-->
-                        <h1>*play button*</h1>
+                        <h1></h1>
+                        <div id="secondLayer" class="videoWrapper">
+                          <iframe width="690" height="515" src="https://www.youtube.com/embed/ao8L-0nSYzg" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+
+
+                        <p class="slideInUp">Currently, addiction recovery success rates equal anywhere from 40% to 60%, according to the National Institute on Drug Abuse.</p>
+                        <p>It's time we start thinking about recovery and addiction in a different way</p>
+                      <!--  <div class="slideInUp slideInUp3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/ao8L-0nSYzg" frameborder="0" allowfullscreen></iframe>-->
+                          <!--removed logo-->
                     </header>
-                    <section>
-                        <p class="slideInUp slideInUp2">Let the images do the talking and use text for short summaries.</p>
-                    </section>
+
+
                 </div> <!-- .wrapper -->
             </article>
 
@@ -90,10 +102,12 @@
                 <div class="wrapper">
                     <header class="slideInUp">
                         <h1>Find Meet Ups in your area.</h1>
+                        <a href="ratParkProject/meet-up.html"></a>
                     </header>
                     <section>
                         <p class="slideInUp slideInUp2">Meet Ups can be a great place to meet others with similar interests</p>
                         <p class="slideInUp slideInUp3">some text that talks about creating healthy bonds</p>
+                        <a href="/Users/mac/Documents/ratParkProject/rat-park-project/ratParkProject/meet-up.html">Click Here to Search for MeetUps in your area!</a>
                     </section>
                 </div> <!-- .wrapper -->
             </article>
@@ -101,31 +115,65 @@
             <article id="cb03" class="content-block">
                 <div class="wrapper">
                     <header class="slideInUp">
-                        <h1>Need to Talk?</h1>
+                        <h1>MeetUps are Great....</h1>
                     </header>
                     <section>
-                        <p class="slideInUp slideInUp2">visit our chat room, find a support meeting, or make a call.</p>
+                        <p class="slideInUp slideInUp2">...but sometimes we just need to talk</p>
                     </section>
                 </div> <!-- .wrapper -->
             </article>
 <!--putting another section here-->
-            <article id="slide04" class="slide fs">
-                <div class="bcg"></div>
+
+            <article id="slide04" class="slide fs is-active">
+                <div class="bcg" style="visibility: inherit; opacity: 0.5; transform: matrix(1, 0, 0, 1, 0, 0);"></div>
                 <div class="wrapper">
                     <header class="slideInUp">
-                        <h1>A new section</h1>
+                        <h1>Reach out.</h1>
+                        <h2>We Care About You and Your Recovery</h2>
                     </header>
                     <section>
-                        <p class="slideInUp slideInUp2">Make a connection in our chat room, or click for other services.</p>
+                        <p class="slideInUp slideInUp2">Looking for a meeting?</p>
+                        <a href="ratParkProject/need-to-talk.html">Follow this link to find a support group.</a>
+                        <p class="slideInUp slideInUp2">Need to talk now?</p><a href="/Users/mac/Documents/ratParkProject/rat-park-project/ratParkProject/find-meeting-or-call.html">Follow this link for helpline numbers.</a>
                     </section>
                 </div> <!-- .wrapper -->
             </article>
+  <!--adding another content block section-->
+
+            <article id="cb04" class="content-block is-active">
+              <div class="wrapper">
+                <header class="slideInUp">
+                  <h1>Don't Forget the Broccoli!</h1>
+                </header>
+                <section>
+                  <p class="slideInUp slideInUp2">Proper nutrition and  sufficient exercise are huge contributors to a successful recovery.</p>
+
+                  <a id="aWindow" href="https://www.thefix.com/content/nutrition-and-addiction-recovery-how-healthy-eating-can-help-you-stay-sober?page=all" target="_blank">click here to learn more!</a>
+                </section>
+              </div> <!-- .wrapper -->
+            </article>
+
+          <!-- <article id="slide05" class="slide fs">
+                <div class="bcg"></div>
+                <div class="wrapper">
+                    <header class="slideInUp">
+                        <h1>Find Meet Ups in your area.</h1>
+                    </header>
+                    <section>
+                        <p class="slideInUp slideInUp2">Meet Ups can be a great place to meet others with similar interests</p>
+                        <p class="slideInUp slideInUp3">some text that talks about creating healthy bonds</p>
+                    </section>
+                </div> <!-.wrapper ->
+            </article> -->
+
+
+
 
             <article id="slide03" class="slide fs">
                 <div class="bcg"></div>
                 <div class="wrapper">
                     <header class="slideInUp">
-                        <a href="https://ihatetomatoes.net/blog/" title="Petr Tichy's Front End Development Blog">
+                      <!--
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="iht_logo" x="0" y="0" viewbox="0 0 308.8 152.1" xml:space="preserve" enable-background="new 0 0 308.8 152.1" style="visibility: inherit; opacity: 1;">
                             <style>
                             .s0{
@@ -150,13 +198,19 @@
                               <path d="M132.6 30.4" class="s2"></path>
                               <path d="M128.6 10.9c0-1.5 0-3 0.1-4.5 0.1-1.4 0.8-3.1 0.3-4.5 -0.8-2.5-4.3-2.6-5.5-0.3 -1.8 4.5-2.5 9.2-2.4 14 -6.7 3.2-17 2-24-0.2 5.1 4 11.2 6.7 18 7.5 -6.5 3-12.5 7-17.6 11.9 13.7-9.2 32.4-7.6 44.4 3.7 -1.3-4.6-3.5-8.7-6.4-12.3 7.3-5.2 16.3-7.4 25.1-6.3 -7-2.1-14.2-3-21.5-2.8 3.2-2.1 6-4.7 8.3-7.7 -6.3 3.5-11.4 4.1-18.5 4.4C128.8 13.2 128.7 11.6 128.6 10.9" fill="#95D600"></path>
                             </svg>
-                        </a>
+                        </a>-->
                         <h1>Additional resources</h1>
                     </header>
                     <section>
-                        <p class="slideInUp slideInUp2">Explore the source code and start learning ScrollMagic today.</p>
+                        <p class="slideInUp slideInUp2">Click here for additional information on addiction and recovery</p>
+                        <br><br><br>
                         <div class="slideInUp slideInUp3">
-                            <a href="https://ihatetomatoes.net/5-days-with-scrollmagic/" class="button">DOWNLOAD FILES</a>
+                          <iframe width="360" height="180" src="https://www.youtube.com/embed/Qwd25JV-jnU" frameborder="0" allowfullscreen></iframe>
+                          <br><br><br>
+                          <iframe width="360" height="180" src="https://www.youtube.com/embed/iCvmsMzlF7o" frameborder="0" allowfullscreen></iframe>
+
+                          <!--removed logo
+                            <a  class="button">DOWNLOAD FILES</a>-->
                         </div>
 
                     </section>
@@ -167,7 +221,7 @@
 
         <div class="footer-container">
             <footer class="wrapper">
-                <h3>2016 &copy; <a href="https://ihatetomatoes.net" target="_blank">Ihatetomatoes.net</a> | <a href="https://twitter.com/ihatetomatoes" target="_blank">@ihatetomatoes</a> | Images by <a href="http://raumrot.com/portfolio/set-24-free-for-commercial-use-photos/" target="_blank">Markus Spiske / raumrot.com</a> | Animate responsibly!</h3>
+               <h3>some text;  | some text | some text | some text</h3>
             </footer>
         </div>
 

@@ -298,7 +298,8 @@ h1 {
 /*added a new id for another section*/
   #slide04 .bcg {
     background: url(../img/img_mountains03.jpg) no-repeat center center;
-    background-size: cover; }
+    background-size: cover;
+    opacity: 0.7; }
 
 /* =Navigation */
 nav {
@@ -409,11 +410,11 @@ p {
       color: #ffffff; }
   .slide#slide03 .wrapper {
     padding-top: 100px; }
-  .slide#slide04 {
-    background-color: #be4c2c; }
+  /*added slide04 here*/
   .slide#slide04 .wrapper {
     position: absolute;
-    top: 10%; }
+    bottom: 10%; }
+
 
 .button {
   text-decoration: none;
@@ -528,10 +529,10 @@ p {
       margin: 0; }
     .slide#slide01, .slide#slide02, .slide#slide03, .slide#slide04 {
       color: #212121; }
-      .slide#slide01 .wrapper, .slide#slide02 .wrapper, .slide#slide03 .wrapper, .slide#slide04 {
+      .slide#slide01 .wrapper, .slide#slide02 .wrapper, .slide#slide03 .wrapper, .slide#slide04 .wrapper {
         top: 20%;
         text-align: center; }
-      .slide#slide01 section, .slide#slide02 section, .slide#slide03 section .slide#slide04 section, {
+      .slide#slide01 section, .slide#slide02 section, .slide#slide03 section, .slide#slide04 section, {
         margin: 0 auto; }
     .slide#slide02 {
       color: #ffffff; }
@@ -561,6 +562,25 @@ p {
       color: #212121; }
     .slide#slide03 .bcg {
       opacity: 1; }
+      /*section 4 new code*/
+      .slide#slide04 .wrapper {
+        padding: 0;
+        top: 15%;
+        -webkit-transform: translate(-50%, 0);
+            -ms-transform: translate(-50%, 0);
+                transform: translate(-50%, 0); }
+      .slide#slide04 section {
+        margin: 0 auto;
+        max-width: 570px;
+
+      }
+      .slide#slide04 .button {
+        border-color: rgba(0, 0, 0, 0.7);
+        background-color: transparent;
+        color: #212121; }
+      .slide#slide04 .bcg {
+        opacity: 1; }
+
   nav {
     display: block; }
   .content-block .wrapper {
@@ -667,3 +687,20 @@ p {
     widows: 3; }
   h2, h3 {
     page-break-after: avoid; } }
+
+
+  .videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+  z-index: 3;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  z-index: 3;
+}

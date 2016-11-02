@@ -1,0 +1,30 @@
+
+.centerResults {
+  text-align: center;
+}
+.resultSet {
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  margin: auto
+}
+.resultNoTop {
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  margin: auto;
+}
+ul{
+  list-style: none
+}
+li{
+  background-color: yellow;
+}
+p{
+  background-color: yellow;
+  margin-top: 0;
+}
+
+.container {
+  background-color: red;
+}

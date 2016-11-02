@@ -104,7 +104,7 @@ h1 {
         font-size: 35px;
         font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif;
         opacity: 1;
-        margin: 0 0 6px 0; 
+        margin: 0 0 6px 0;
         max-width: 400px;
         text-align: center;
     }
@@ -175,6 +175,15 @@ h1 {
         background-size: cover;
         opacity: 0.7;
     }
+    #slide04 & {
+        background: url(../img/img_mountains04.jpg) no-repeat center center;
+        background-size: cover;
+        opacity: 0.7;
+    }#slide05 & {
+        background: url(../img/img_mountains04.jpg) no-repeat center center;
+        background-size: cover;
+        opacity: 0.7;
+    }
 }
 
 /* =Navigation */
@@ -192,7 +201,7 @@ nav {
         position: relative;
         padding-right: 20px;
         color: $lightest;
-        text-decoration: none; 
+        text-decoration: none;
         &:hover {
             .nav-label {
                 transform: translateX(0);
@@ -209,9 +218,9 @@ nav {
         right: 0;
         top: 50%;
         background-color: transparentize($lightest,.1);
-        -webkit-border-radius: 100%; 
+        -webkit-border-radius: 100%;
         border-radius: 100%;
-        transform: translateY(-50%); 
+        transform: translateY(-50%);
         transition: all 0.3s linear;
     }
     .nav-label {
@@ -381,7 +390,7 @@ p {
         transform: translate3d(0, 0, 0);
     }
     &.slideInUp2{transition-delay: 0.2s;}
-    &.slideInUp3{transition-delay: 0.4s;}
+    &.slideInUp3{transition-delay: 0.7s;}
 }
 
 #iht_logo {
@@ -446,7 +455,9 @@ p {
         }
         &#slide01,
         &#slide02,
-        &#slide03 {
+        &#slide03
+        &#slide04
+        &#slide05 {
             color: $darkest;
             .wrapper {
                 top: 20%;
