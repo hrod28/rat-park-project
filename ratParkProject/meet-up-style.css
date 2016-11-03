@@ -1,6 +1,6 @@
 
 .centerResults {
-  text-align: center;
+  text-align: left;
 }
 .resultSet {
   border-top: solid;
@@ -14,17 +14,22 @@
   border-right: solid;
   margin: auto;
 }
-ul{
-  list-style: none
+
+ul {
+  list-style: none;
+
 }
-li{
-  background-color: yellow;
-}
-p{
-  background-color: yellow;
-  margin-top: 0;
+li {
+  list-style: none;
 }
 
-.container {
-  background-color: red;
+.resultGroup {
+  list-style: none;
+  border: solid;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
+  text-align: center;
 }
