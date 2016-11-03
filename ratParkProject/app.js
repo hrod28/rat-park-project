@@ -2,7 +2,7 @@
 //console.log("are we here");
 $(document).ready(function(){
 
-
+console.log('yes');
 $('#wtf').on('click', function(event) {
   event.preventDefault();
 
