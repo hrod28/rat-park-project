@@ -57,7 +57,7 @@ $xhr.done(function(data) {
       console.log(dScript);
       var eveName = json[j].event_url;
       console.log(eveName);
-      $('ul').append('<div class="resultGroup"><p></p><li><b>Group Name:</b>'+'     ' + gName +'</li><li><b>Meetup Description:</b>'+'     '+ dScript +'</li><li><b>Event URL:</b>'+'     ' + eveName + '</li><p></p></div>', '<p></p>', '<p></p>', '<p></p>', '<p></p>');
+      $('ul').append('<div class="btn-custom"><p></p><li><b>Group Name:</b>'+'     ' + gName +'</li><li><b>Meetup Description:</b>'+'     '+ dScript +'</li><li><b>Event URL:</b>'+'     ' + eveName + '</li><p></p></div>', '<p></p>', '<p></p>', '<p></p>', '<p></p>');
       //console.log(json[j].group_name);
 //console.log(json);
 
