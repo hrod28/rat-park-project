@@ -67,7 +67,6 @@ $xhr.done(function(data) {
 });
 });
 
-
 // for get request
 /*$('#searchNow').on('click', function(){
   $.getJSON('https://api.meetup.com/2/open_events?&sign=true&photo-host=public&zip=1&limited_events=1&category=1&radius=1&key=5f191083921794812151c1a403a6d3a', function(result){

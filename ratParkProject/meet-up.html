@@ -4,7 +4,7 @@
   <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>-->
-    <link rel="stylesheet" type="text/css" href="meet-up-style.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css/meet-up-style.css" media="screen">
     <!--<link href="ratParkProject/app.js">-->
     <script
   src="https://code.jquery.com/jquery-3.1.1.js"
@@ -13,15 +13,22 @@
   <script src="app.js"></script>
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <meta charset="utf-8">
-    <title>Search Meetings</title>
+    <title>Search MeetUps</title>
   </head>
-  
+
   <body>
+<!--  <div class="loader"></div>-->
     <div class="container">
     <form name="category-form">
       <div class="form-group" align="center">
-        <label for="userChoiceCategory">Select Category</label>
-        <select id="userChoiceCategory" placeholder="Select Category">
+        <div class="row">
+          <div class="column-sm-4">
+            <button type="button" class="btn-custom">Select Category Below:</button>
+      </div>
+      <!--  <label for="userChoiceCategory">Select Category</label>-->
+      <div class="row">
+        <select id="userChoiceCategory">
+          <option value="0">Select Category</option>
           <option value="1">Arts &amp; Culture</option>
           <option value="18">Book Clubs</option>
           <option value="2">Career &amp; Business</option>
@@ -57,25 +64,32 @@
           <option value="36">Writing</option>
         </select>
       </div>
+      <nav>
+          <ul>
+              <li><a href="#intro"><span class="nav-dot"></span><span class="nav-label">Welcome</span></a></li>
+          </ul>
+      </nav>
+      </div>
       <div class="form-group" align="center">
-        <label for="zipCode">Enter Zip Code</label>
+    <!--    <label for="zipCode">Enter Zip Code</label>-->
+        <button type="button" class="btn-custom">Enter Zip Code(arrow glyphon)</button>
         <input id="zipCode" type="text" placeholder="Enter Zip Code" value="">
       </div>
       <div class="form-group" align="center">
-        <label for="wtf">Click to Find Meetups:</label>
+      <!--  <label for="wtf">Click to Find Meetups:</label>-->
         <button id="wtf" type="submit">Search MeetUps</button>
 
-        <label for="newSearch">Click to Clear Results:</label>
+    <!--    <label for="newSearch">Click to Clear Results:</label>-->
         <input id="newSearch" type="button" onclick="history.go(0)" value="Refresh" placeholder="Click to Clear Search">
-
+      </div>
       </div>
     </form>
 
-    <div id="meetingSection" class="centerResults">
-      <h1>My MeetUps:</h1>
+
+    <div id="meetingSection" align="center">
+      <button type="button" class="btn-custom01">My Meetups:</button>
 
     </div>
-
-  </div>
+    </div>
   </body>
 </html>

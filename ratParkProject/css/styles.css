@@ -283,13 +283,13 @@ h1 {
   z-index: 1;
   opacity: 0.5; }
   .header-container .bcg {
-    background-image: url(../img/img_mountains01.jpg);
+    background-image: url(../img/img_mountains01a.jpg);
     background-size: cover; }
   #slide01 .bcg {
     background: url(../img/img_mountains02.jpg) no-repeat center center;
     background-size: cover; }
   #slide02 .bcg {
-    background: url(../img/img_mountains03.jpg) no-repeat center center;
+    background: url(../img/img_mountains03a.jpg) no-repeat center center;
     background-size: cover; }
   #slide03 .bcg {
     background: url(../img/img_mountains04.jpg) no-repeat center center;
@@ -297,7 +297,7 @@ h1 {
     opacity: 0.7; }
 /*added a new id for another section*/
   #slide04 .bcg {
-    background: url(../img/img_mountains03.jpg) no-repeat center center;
+    background: url(../img/img_mountains04a.jpg) no-repeat center center;
     background-size: cover;
     opacity: 0.7; }
 
@@ -767,7 +767,25 @@ p{
   -1px 0px 0 #000,
   0px 0px 0px #fff;
 }
-a{
-  font-weight: bolder;
-  color: #98FB98;
+
+.btn-custom {
+background-color: hsl(245, 0%, 56%) !important;
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#8e8e8e");
+background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#8e8e8e));
+background-image: -moz-linear-gradient(top, #ffffff, #8e8e8e);
+background-image: -ms-linear-gradient(top, #ffffff, #8e8e8e);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #8e8e8e));
+background-image: -webkit-linear-gradient(top, #ffffff, #8e8e8e);
+background-image: -o-linear-gradient(top, #ffffff, #8e8e8e);
+background-image: linear-gradient(#ffffff, #8e8e8e);
+border-color: #8e8e8e #8e8e8e hsl(245, 0%, 45%);
+color: #333 !important;
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.72);
+-webkit-font-smoothing: antialiased;
+font-size: 15px;
+padding: 10px 20px;
+border-radius: 25px;
+font-size: 15px;
+font-weight: bolder;
 }

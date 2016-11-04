@@ -1,0 +1,238 @@
+
+.centerResults {
+  text-align: left;
+}
+.resultSet {
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  margin: auto
+}
+.resultNoTop {
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+
+}
+li {
+  list-style: none;
+}
+
+.resultGroup {
+  list-style: none;
+  border: solid;
+  padding-left: 30px;
+  border-style: ridge;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background: url(/Users/mac/Documents/rat-park-project/ratParkProject/img/img_mountains02.jpg);
+}
+.resultGroup {
+  background-color: white;
+}
+
+.btn-custom {
+ background-color: hsl(245, 0%, 56%) !important;
+ background-repeat: repeat-x;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#8e8e8e");
+ background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#8e8e8e));
+ background-image: -moz-linear-gradient(top, #ffffff, #8e8e8e);
+ background-image: -ms-linear-gradient(top, #ffffff, #8e8e8e);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #8e8e8e));
+ background-image: -webkit-linear-gradient(top, #ffffff, #8e8e8e);
+ background-image: -o-linear-gradient(top, #ffffff, #8e8e8e);
+ background-image: linear-gradient(#ffffff, #8e8e8e);
+ border-color: #8e8e8e #8e8e8e hsl(245, 0%, 45%);
+ color: #333 !important;
+ text-shadow: 0 1px 1px rgba(255, 255, 255, 0.72);
+ -webkit-font-smoothing: antialiased;
+ font-size: 15px;
+ padding: 10px 20px;
+ border-radius: 25px;
+ font-size: 15px;
+ font-weight: bolder;
+
+}
+
+.btn-custom:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.center {
+  align-content: center;
+}
+
+.row {
+  margin: 0;
+  background-color: transparent;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.row {
+  position: relative;
+  top:50%
+  transform: translateY(-50%);
+  transform-style: preserve-3d;
+}
+
+#topButton {
+  margin-top: 20px;
+}
+#userChoiceCategory, #zipCode, #wtf, #newSearch{
+  background-color: hsl(245, 0%, 56%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#8e8e8e");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#8e8e8e));
+  background-image: -moz-linear-gradient(top, #ffffff, #8e8e8e);
+  background-image: -ms-linear-gradient(top, #ffffff, #8e8e8e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #8e8e8e));
+  background-image: -webkit-linear-gradient(top, #ffffff, #8e8e8e);
+  background-image: -o-linear-gradient(top, #ffffff, #8e8e8e);
+  background-image: linear-gradient(#ffffff, #8e8e8e);
+  border-color: #8e8e8e #8e8e8e hsl(245, 0%, 45%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.72);
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+#zipCode{
+  margin-top: 10px;
+}
+
+.placeholder{
+  font-weight: bold;
+}
+#userChoiceCategory{
+  margin-top: 30px;
+}
+#wtf {
+  margin-right: 45px;
+  margin-top: 10px;
+}
+.videoWrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+border: solid white;
+margin: 15px;
+}
+.videoWrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+.btn-custom01 {
+background-color: hsl(245, 0%, 56%) !important;
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#8e8e8e");
+background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#8e8e8e));
+background-image: -moz-linear-gradient(top, #ffffff, #8e8e8e);
+background-image: -ms-linear-gradient(top, #ffffff, #8e8e8e);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #8e8e8e));
+background-image: -webkit-linear-gradient(top, #ffffff, #8e8e8e);
+background-image: -o-linear-gradient(top, #ffffff, #8e8e8e);
+background-image: linear-gradient(#ffffff, #8e8e8e);
+border-color: #8e8e8e #8e8e8e hsl(245, 0%, 45%);
+color: #333 !important;
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.72);
+-webkit-font-smoothing: antialiased;
+font-size: 15px;
+padding: 10px 20px;
+border-radius: 25px;
+font-size: 15px;
+font-weight: bolder;
+margin-top: 10px;
+}
+
+nav {
+  
+  display: none;
+  position: fixed;
+  right: 30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: right;
+  z-index: 100; }
+  nav a {
+    display: block;
+    line-height: 25px;
+    position: relative;
+    padding-right: 20px;
+    color: #ffffff;
+    text-decoration: none; }
+    nav a:hover .nav-label {
+      -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+      visibility: visible; }
+  nav .nav-dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transition: all 0.3s linear;
+            transition: all 0.3s linear; }
+  nav .nav-label {
+    display: block;
+    opacity: 0.5;
+    visibility: hidden;
+    -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+            transform: translateX(-10px);
+    -webkit-transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
+            transition: all 0.2s cubic-bezier(.17, .67, .83, .67); }
+  nav.is-dark a {
+    color: #212121; }
+  nav.is-dark .nav-dot {
+    background-color: rgba(0, 0, 0, 0.5); }
+  nav.is-light a {
+    color: #ffffff; }
+  nav.is-light .nav-dot {
+    background-color: rgba(255, 255, 255, 0.5); }
+  nav ul {
+    margin: 0;
+    padding: 0; }
+  nav li {
+    width: auto;
+    list-style: none; }
